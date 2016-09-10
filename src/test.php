@@ -4,7 +4,7 @@ namespace Medialisk\Librolisk;
  
 class Test {
  
-  public function sayHello
+  public function sayHello()
   {
     return 'hello';
   }
