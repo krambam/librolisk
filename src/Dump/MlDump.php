@@ -1,9 +1,16 @@
 <?php
 
-namespace Medialisk\Librolisk\Debug;
+namespace Medialisk\Librolisk\Dump;
 
-class Dump
+require_once(__DIR__ . '/functions/mlDump.php');
+
+class MlDump
 {
+    public static function load()
+    {
+        // only for calling initing and calling require_once for global scope function
+    }
+
     public static function dump($object, $hidePrivate = false)
     {
         $css = <<<HTML
