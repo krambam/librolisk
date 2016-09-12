@@ -12,8 +12,8 @@
  * @version 0.5
  */
 
-namespace Medialisk\Librolisk\ObjectAdapter;
-class ObjectAdapter implements Zend_Auth_Adapter_Interface
+namespace Medialisk\Librolisk\Auth;
+class ObjectAdapter implements \Zend_Auth_Adapter_Interface
 {
     /**
      * $_identityValue - Identity value
