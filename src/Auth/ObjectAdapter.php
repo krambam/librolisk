@@ -1,8 +1,8 @@
 <?php
 
 /**
- *
  * Website_Auth_ObjectAdapter
+ * NOT BUILT BY MEDIALISK (Built by unknown source)
  *
  * Website_Auth_ObjectAdapter provides the ability to authenticate against
  * credentials stored in an Pimcore object. All configuration options can
@@ -11,7 +11,9 @@
  *
  * @version 0.5
  */
-class Website_Auth_ObjectAdapter implements Zend_Auth_Adapter_Interface
+
+namespace Medialisk\Librolisk\ObjectAdapter;
+class ObjectAdapter implements Zend_Auth_Adapter_Interface
 {
     /**
      * $_identityValue - Identity value
