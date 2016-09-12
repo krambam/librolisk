@@ -1,6 +1,8 @@
 <?php
 namespace Medialisk\Librolisk\Text;
 
+use Medialisk\Librolisk\Text\Util;
+
 class PreviewText
 {
     /**
@@ -13,7 +15,7 @@ class PreviewText
     {
         $mainTextStripped = strip_tags($text);
         if ($length) {
-            $result = \Medialisk\Librolisk\Text\Util::cutStringRespectingWhitespace($mainTextStripped, $length);
+            $result = Util::cutStringRespectingWhitespace($mainTextStripped, $length);
         } else {
             $result = $mainTextStripped;
         }
