@@ -1,2 +1,2 @@
 # librolisk
-php utilities lib
+php pimcore utilities lib
