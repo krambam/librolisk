@@ -11,6 +11,7 @@ class CleanUrl
     {
         $output = $string;
         $output = \Medialisk\Librolisk\Text\Util::toUrl($output);
+        $output = str_replace('.', '-', $output);
         $output = preg_replace('/([^a-zA-Z0-9])/', '-', $output);
         $output = preg_replace('/-+/', '-', $output);
         $output = strtolower(trim($output, '-'));
